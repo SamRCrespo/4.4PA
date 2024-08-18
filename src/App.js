@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 //creating function alert
 function TextInputComponent() {
     const [inputText, setInputText] = useState('');
-alert("hello");
+    alert("hello");
 
     const handleChange = (event) => {
         setInputText(event.target.value);
